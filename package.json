@@ -1,0 +1,25 @@
+{
+  "name": "website-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "scripts": {
+    "start": "parcel",
+    "build": "rm dist/* && parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yamachoo/website-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "yamachoo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yamachoo/website-boilerplate/issues"
+  },
+  "homepage": "https://github.com/yamachoo/website-boilerplate#readme",
+  "devDependencies": {
+    "parcel": "2.0.1"
+  }
+}
