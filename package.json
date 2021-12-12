@@ -6,7 +6,7 @@
   "browserslist": "> 0.5%, last 2 versions, not dead",
   "scripts": {
     "start": "parcel",
-    "build": "rm dist/* && parcel build"
+    "build": "rm dist/* && parcel build --no-source-maps"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,8 @@
   },
   "homepage": "https://github.com/yamachoo/website-boilerplate#readme",
   "devDependencies": {
+    "@parcel/transformer-sass": "2.0.1",
+    "autoprefixer": "10.4.0",
     "parcel": "2.0.1",
     "posthtml-include": "1.7.2"
   }
